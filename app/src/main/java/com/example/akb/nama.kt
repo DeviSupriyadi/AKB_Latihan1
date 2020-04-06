@@ -21,11 +21,11 @@ class nama : AppCompatActivity() {
             else if(umur.isEmpty()){
                 age.setError("Umur tidak boleh kosong")
             }
-            else(
-                    val intent = Intent( this,end::class.java)
-                        .putExtra(EXTRA_MESSAGE,nama)
-                    startActivity(intent)
-                    )
+            else {
+                val intent = Intent(this, end::class.java)
+                    .putExtra(EXTRA_MESSAGE, nama)
+                startActivity(intent)
+            }
         }
     }
 }
