@@ -19,7 +19,7 @@ class nama : AppCompatActivity() {
                 name2.setError("Nama tidak boleh kosong")
             }
             else if(umur.isEmpty()){
-                age.setError("Umur tidak boleh kosong")
+                age2.setError("Umur tidak boleh kosong")
             }
             else {
                 val intent = Intent(this, end::class.java)
