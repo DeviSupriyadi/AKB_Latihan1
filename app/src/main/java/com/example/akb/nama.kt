@@ -14,7 +14,7 @@ class nama : AppCompatActivity() {
 
         next3.setOnClickListener(){
             val nama = name2.text.toString()
-            val umur =age.text.toString()
+            val umur =age2.text.toString()
             if(nama.isEmpty()){
                 name2.setError("Nama tidak boleh kosong")
             }
