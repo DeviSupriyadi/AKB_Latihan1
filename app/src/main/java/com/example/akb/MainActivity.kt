@@ -5,7 +5,8 @@ import android.os.Bundle
 import android.content.Intent
 import kotlinx.android.synthetic.main.activity_main.*
 
-/* Tanggal Penggerjaan  : 3-4 April 2020, 6-7 April 2020
+/* Tanggal Penggerjaan  : - 3-4 April 2020 mengerjakan tampilan 1 dan 2,
+                          - 6-7 April 2020 mengerjakan tampilan 3 dan 4
  * NIM                  : 10117181
  * Nama                 : Devi Tiana Octaviani S
  * Kelas                : IF-5
