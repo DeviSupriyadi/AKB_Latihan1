@@ -13,10 +13,10 @@ class nama : AppCompatActivity() {
         setContentView(R.layout.activity_nama)
 
         next3.setOnClickListener(){
-            val nama = name.text.toString()
+            val nama = name2.text.toString()
             val umur =age.text.toString()
             if(nama.isEmpty()){
-                name.setError("Nama tidak boleh kosong")
+                name2.setError("Nama tidak boleh kosong")
             }
             else if(umur.isEmpty()){
                 age.setError("Umur tidak boleh kosong")
